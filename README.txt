@@ -45,6 +45,14 @@ To get started:
 	pusher.secret = 'xxxxxxxxxxxxxxxxxxxx'
 	pusher.channel = 'twilio_call_center'
 
+5. In your Twilio app that you created, add the following URL for voice:
 
+	http://MYSITEURL/voice
+		
+	This will handle voice calls.
+	
+6. Upload the files and run, the index will display your ads, and the control center can be accessed via:
 
-You now have a working Jolt App.. Enjoy...
+	http://MYSITEURL/control
+
+Enjoy :)
