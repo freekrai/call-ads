@@ -1,0 +1,166 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "544c8d28fd56229ed41a0b368f18d7a6",
+    "packages": [
+        {
+            "name": "jolt/jolt",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/freekrai/jolt.git",
+                "reference": "a9b2b1b9de725b63ee4a8575900028de4d2ec02f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/freekrai/jolt/zipball/a9b2b1b9de725b63ee4a8575900028de4d2ec02f",
+                "reference": "a9b2b1b9de725b63ee4a8575900028de4d2ec02f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Jolt": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Roger Stringer",
+                    "email": "roger@rogerstringer.com",
+                    "homepage": "http://www.rogerstringer.com/"
+                }
+            ],
+            "description": "Jolt Framework, a PHP micro framework",
+            "homepage": "http://github.com/freekrai/Jolt",
+            "keywords": [
+                "microframework",
+                "rest",
+                "router"
+            ],
+            "time": "2014-02-26 02:39:41"
+        },
+        {
+            "name": "pusher/pusher-php-server",
+            "version": "dev-composer",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pusher/pusher-php-server.git",
+                "reference": "474c38a45d20f619572861aa62d8aea6b3844497"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pusher/pusher-php-server/zipball/474c38a45d20f619572861aa62d8aea6b3844497",
+                "reference": "474c38a45d20f619572861aa62d8aea6b3844497",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=5.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "lib/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Library for interacting with the Pusher REST API",
+            "homepage": "https://github.com/pusher/pusher-php-server",
+            "keywords": [
+                "events",
+                "php-pusher-server",
+                "publish",
+                "pusher",
+                "realtime",
+                "rest",
+                "trigger"
+            ],
+            "time": "2013-09-15 17:23:00"
+        },
+        {
+            "name": "twilio/sdk",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twilio/twilio-php.git",
+                "reference": "a876df2cd5bc873beb450a56e6e410680a5b4e4c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twilio/twilio-php/zipball/a876df2cd5bc873beb450a56e6e410680a5b4e4c",
+                "reference": "a876df2cd5bc873beb450a56e6e410680a5b4e4c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.1"
+            },
+            "require-dev": {
+                "mockery/mockery": ">=0.7.2",
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Services_Twilio": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kevin Burke",
+                    "email": "kevin@twilio.com"
+                },
+                {
+                    "name": "Kyle Conroy",
+                    "email": "kyle+pear@twilio.com"
+                }
+            ],
+            "description": "A PHP wrapper for Twilio's API",
+            "homepage": "http://github.com/twilio/twilio-php",
+            "keywords": [
+                "api",
+                "sms",
+                "twilio"
+            ],
+            "time": "2014-07-15 17:50:20"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "twilio/sdk": 20,
+        "pusher/pusher-php-server": 20,
+        "jolt/jolt": 20
+    },
+    "prefer-stable": false,
+    "platform": [
+
+    ],
+    "platform-dev": [
+
+    ]
+}

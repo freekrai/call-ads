@@ -1,0 +1,15 @@
+{
+    "name": "freekrai/joltstarter",
+    "description": "Jolt Starter App",
+    "authors": [
+        {
+            "name": "freekrai",
+            "email": "freekrai@me.com"
+        }
+    ],
+    "require": {
+        "twilio/sdk": "dev-master",
+        "pusher/pusher-php-server": "dev-composer",
+        "jolt/jolt": "dev-master"
+    }
+}
